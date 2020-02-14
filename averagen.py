@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-n = int(input('Please, enter the amount of number: '))
+n = int(input('Please enter the amount of number: '))
 sum = 0
 count = 0
-print('Please, input {} numbers: '.format(n))
 while count < n:
-    number = float(input())
+    number = float(input('NO.{}: '.format(count+1)))
     sum += number
     count += 1
 average = sum / n
