@@ -1,0 +1,4 @@
+# 测试覆盖率是找到代码库未经测试的部分的简单方法。
+$ sudo pip3 install coverage
+$ coverage3 run mounttest.py
+$ coverage3 html  # 以 HTML 文件的形式输出覆盖率结果，然后在浏览器中查看。
